@@ -1,6 +1,8 @@
 # Python KISS client
 
-This is a program that can be used to send AX.25 KISS packets via a TNC (physical or software).
+This is a program that can be used to send AX.25 KISS packets via a TNC (physical or software). It is primarily made to work with Direwolf.
+
+Inspired by Daniel Estévez's code from this article: [Open telecommand for BY70-1](https://destevez.net/2017/01/open-telecommand-for-by70-1/).
 
 # Usage
 
@@ -19,3 +21,4 @@ kiss.py --net [address] -p [destination] [source] [messsage]
 ```
 
 The address defaults to '127.0.0.1'.
+
